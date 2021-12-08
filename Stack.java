@@ -20,7 +20,7 @@ final class Stack {
   public static void main(final String[] args) {
     final int min = 1;
     final int max = 10;
-    int times = 5;
+    int times = max;
     // use MrCoxallStack class
     MrCoxallStack newStack = new MrCoxallStack();
     while (times >= 0) {
